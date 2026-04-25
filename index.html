@@ -36,7 +36,6 @@ body{font-family:'Inter',sans-serif;background:#0a0e1a;color:#e2e8f0;min-height:
 .card-green::before{background:linear-gradient(90deg,#059669,#34d399)}
 .card-purple::before{background:linear-gradient(90deg,#7c3aed,#a78bfa)}
 .card-orange::before{background:linear-gradient(90deg,#ea580c,#fb923c)}
-.card-cyan::before{background:linear-gradient(90deg,#0891b2,#22d3ee)}
 .card-icon{font-size:36px;margin-bottom:14px}
 .card-title{font-size:18px;font-weight:700;margin-bottom:6px}
 .card-desc{font-size:13px;color:#94a3b8;line-height:1.6;margin-bottom:16px}
@@ -49,7 +48,6 @@ body{font-family:'Inter',sans-serif;background:#0a0e1a;color:#e2e8f0;min-height:
 .card-status{position:absolute;top:16px;right:16px;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700}
 .status-live{background:#064e3b;color:#34d399}
 .status-soon{background:#422006;color:#fbbf24}
-.status-dev{background:#1e293b;color:#64748b;border:1px solid #475569}
 
 /* Info Section */
 .info{background:#1e293b;border:1px solid #334155;border-radius:16px;padding:28px;margin-bottom:40px}
@@ -68,24 +66,24 @@ body{font-family:'Inter',sans-serif;background:#0a0e1a;color:#e2e8f0;min-height:
 <div class="header">
   <div class="header-content">
     <div class="logo">&#128736; FPT QA Tools</div>
-    <div class="subtitle">H&#7879; sinh th&#225;i c&#244;ng c&#7909; &#273;&#7843;m b&#7843;o ch&#7845;t l&#432;&#7907;ng gi&#225;o d&#7909;c</div>
+    <div class="subtitle">Hệ sinh thái công cụ đảm bảo chất lượng giáo dục</div>
     <div class="org">
       <span class="org-dot"></span>
-      Ban &#272;&#7843;m b&#7843;o Ch&#7845;t l&#432;&#7907;ng &mdash; FPT Education
+      Ban Đảm bảo Chất lượng — FPT Education
     </div>
   </div>
 </div>
 
 <div class="wrap">
 
-  <div class="section-title">C&#244;ng c&#7909; hi&#7879;n c&#243;</div>
+  <div class="section-title">Công cụ hiện có</div>
   <div class="tools">
 
-    <a class="card card-blue" href="graduation-reviewer.html">
+    <a class="card card-blue" href="tools/graduation-reviewer.html">
       <span class="card-status status-live">&#9679; Live</span>
       <div class="card-icon">&#128202;</div>
       <div class="card-title">Graduation Data Reviewer</div>
-      <div class="card-desc">R&#224; so&#225;t d&#7919; li&#7879;u x&#233;t t&#7889;t nghi&#7879;p: &#273;&#7889;i chi&#7871;u &#273;i&#7875;m, ki&#7875;m tra GPA, ph&#225;t hi&#7879;n l&#7879;ch d&#7919; li&#7879;u gi&#7919;a c&#225;c ngu&#7891;n</div>
+      <div class="card-desc">Rà soát dữ liệu xét tốt nghiệp: đối chiếu điểm, kiểm tra GPA, phát hiện lệch dữ liệu giữa các nguồn.</div>
       <div class="card-tags">
         <span class="tag tag-blue">5 file input</span>
         <span class="tag tag-green">Export Excel</span>
@@ -93,59 +91,59 @@ body{font-family:'Inter',sans-serif;background:#0a0e1a;color:#e2e8f0;min-height:
       </div>
     </a>
 
-    <a class="card card-green" href="replacecode-manager.html">
+    <a class="card card-green" href="tools/replacecode-manager.html">
       <span class="card-status status-live">&#9679; Live</span>
       <div class="card-icon">&#128203;</div>
       <div class="card-title">ReplaceCode Manager</div>
-      <div class="card-desc">Qu&#7843;n l&#253; m&#244;n thay th&#7871;/t&#432;&#417;ng &#273;&#432;&#417;ng theo Quy&#7871;t &#273;&#7883;nh. So s&#225;nh, th&#234;m m&#7899;i, export file c&#7853;p nh&#7853;t</div>
+      <div class="card-desc">Quản lý môn thay thế/tương đương theo Quyết định. So sánh, thêm mới, export file cập nhật.</div>
       <div class="card-tags">
-        <span class="tag tag-blue">Q&#272; 1411</span>
+        <span class="tag tag-blue">QĐ 1411</span>
         <span class="tag tag-green">Export Excel</span>
         <span class="tag tag-yellow">SP26</span>
       </div>
     </a>
 
     <div class="card card-purple" style="cursor:default">
-      <span class="card-status status-soon">&#9675; S&#7855;p ra</span>
+      <span class="card-status status-soon">&#9675; Sắp ra</span>
       <div class="card-icon">&#128269;</div>
       <div class="card-title">Data Validator</div>
-      <div class="card-desc">Ki&#7875;m tra t&#237;nh nh&#7845;t qu&#225;n d&#7919; li&#7879;u gi&#7919;a c&#225;c file: Mark, CurriculumSubject, ReplaceCode. Ph&#225;t hi&#7879;n l&#7895;i tr&#432;&#7899;c khi x&#233;t TN</div>
+      <div class="card-desc">Kiểm tra tính nhất quán dữ liệu giữa các file: Mark, CurriculumSubject, ReplaceCode.</div>
       <div class="card-tags">
-        <span class="tag tag-gray">&#272;ang ph&#225;t tri&#7875;n</span>
+        <span class="tag tag-gray">Đang phát triển</span>
       </div>
     </div>
 
     <div class="card card-orange" style="cursor:default">
-      <span class="card-status status-soon">&#9675; S&#7855;p ra</span>
+      <span class="card-status status-soon">&#9675; Sắp ra</span>
       <div class="card-icon">&#128196;</div>
       <div class="card-title">Report Generator</div>
-      <div class="card-desc">T&#7921; &#273;&#7897;ng t&#7841;o b&#225;o c&#225;o ki&#7875;m &#273;&#7883;nh theo template chu&#7849;n FE QA. Xu&#7845;t Word/PDF</div>
+      <div class="card-desc">Tự động tạo báo cáo kiểm định theo template chuẩn FE QA. Xuất Word/PDF.</div>
       <div class="card-tags">
-        <span class="tag tag-gray">&#272;ang ph&#225;t tri&#7875;n</span>
+        <span class="tag tag-gray">Đang phát triển</span>
       </div>
     </div>
 
   </div>
 
-  <div class="section-title">Th&#244;ng tin h&#7879; th&#7889;ng</div>
+  <div class="section-title">Thông tin hệ thống</div>
   <div class="info">
-    <h3>&#128161; H&#432;&#7899;ng d&#7851;n s&#7917; d&#7909;ng</h3>
+    <h3>&#128161; Hướng dẫn sử dụng</h3>
     <div class="info-grid">
       <div class="info-item">
         <span class="emoji">&#128274;</span>
-        <span>T&#7845;t c&#7843; d&#7919; li&#7879;u &#273;&#432;&#7907;c x&#7917; l&#253; <b>100% local</b> tr&#234;n m&#225;y b&#7841;n &mdash; kh&#244;ng upload l&#234;n server</span>
+        <span>Tất cả dữ liệu được xử lý <b>100% local</b> trên máy bạn — không upload lên server</span>
       </div>
       <div class="info-item">
         <span class="emoji">&#128194;</span>
-        <span>Ch&#7881; c&#7847;n upload file Excel (.xlsx) &mdash; k&#7871;t qu&#7843; hi&#7875;n th&#7883; ngay tr&#234;n tr&#236;nh duy&#7879;t</span>
+        <span>Chỉ cần upload file Excel (.xlsx) — kết quả hiển thị ngay trên trình duyệt</span>
       </div>
       <div class="info-item">
         <span class="emoji">&#128230;</span>
-        <span>K&#7871;t qu&#7843; export th&#224;nh file Excel m&#7899;i &mdash; kh&#244;ng ghi &#273;&#232; file g&#7889;c</span>
+        <span>Kết quả export thành file Excel mới — không ghi đè file gốc</span>
       </div>
       <div class="info-item">
         <span class="emoji">&#128736;</span>
-        <span>Tool ho&#7841;t &#273;&#7897;ng offline &mdash; ch&#7881; c&#7847;n t&#7843;i file HTML v&#7873; m&#225;y</span>
+        <span>Tool hoạt động offline — chỉ cần tải file HTML về máy</span>
       </div>
     </div>
   </div>
@@ -153,7 +151,7 @@ body{font-family:'Inter',sans-serif;background:#0a0e1a;color:#e2e8f0;min-height:
 </div>
 
 <div class="footer">
-  FPT QA Tools v1.0 &mdash; Ban &#272;&#7843;m b&#7843;o Ch&#7845;t l&#432;&#7907;ng, FPT Education &mdash; 2026<br>
+  FPT QA Tools v1.0 — Ban Đảm bảo Chất lượng, FPT Education — 2026<br>
   <a href="https://github.com/yenLT31" target="_blank">GitHub: yenLT31</a>
 </div>
 
